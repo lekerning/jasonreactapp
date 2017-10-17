@@ -7,6 +7,8 @@ import './mainpage.css'
 import Home from './../homepage/homepage.js'
 import About from './../aboutpage/aboutpage.js'
 
+
+
 class MainPage extends React.Component {
 	render () {
 		return  <div>

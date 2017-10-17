@@ -1,0 +1,15 @@
+ div.homepage {
+	background-color: #b0c4de;
+}
+
+ .homepageP {
+	background-color: #e0ffff;
+}
+
+.reactLogoImage {
+	background-image: url('../1.png');
+	background-color: #cccccc;
+	width: 400px;
+	height: 500px;
+	background-position: right;
+}
