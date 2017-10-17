@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ShoppingList from './ShoppingList.js'
+// import ShoppingList from './ShoppingList.js'
 
-import MyRouter from './routerTest.js'
+// import MyRouter from './routerTest.js'
 
 import MainPage from './mainpage/mainpage.js'
+/*
 class Square extends React.Component {  
   render() {
     return (
@@ -113,13 +114,14 @@ class Game extends React.Component {
     );
   }
 }
-
+*/
 // ========================================
 ReactDOM.render(
-  <MyRouter />,
+  <MainPage />,
   document.getElementById('root')
 );
 
+/*
 function caculateWinner(squares) {
   const lines = [
     [0, 1, 2],
@@ -140,4 +142,5 @@ function caculateWinner(squares) {
   }
   return null
 }
+*/
 
