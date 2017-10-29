@@ -1,11 +1,60 @@
 
 div.left {
-
-	background-color:red;
+	margin-top: 60px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color:green;
 	width:30%;
 	float:left;
-	height: 100%;
+	word-break:break-all;
+}
 
+div .img {
+	margin-top: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+
+	text-align: center;
+	background-color: yellow;
+	height: auto;
+	width: auto;
+}
+
+div.img img {
+	margin-top: 30px;
+
+	border: 1px solid #ffffff;
+}
+
+div .imagDes {
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 0px; 
+
+
+	text-align: center;
+	font-weight:normal;
+	font-size: 12px;
+	word-break:break-all;
+	background-color: red;
+
+
+}
+
+div p.leftProfile {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color:red;
+}
+
+div.right {
+	margin-left: 30%;
+	padding-left: 5px;
+	background-color: gray;
 }
 
 ul {

@@ -4,21 +4,28 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import './mainpage.css'
 
+import './myStyle.css'
+
 import Home from './../homepage/homepage.js'
 import About from './../aboutpage/aboutpage.js'
 
-
-
 class MainPage extends React.Component {
 	render () {
-		return  <div>
+		return  <div className='container'>
 				<div className='left'>
-				<p >
-				 jdjdjdjgwgjwwkjgwkwkjgkjgkgwkgwkjg
-				</p>
+					<div className='img'>
+						<img src='./2.jpg'/>
+						<div className='imagDes'>
+							图片描述图片描述
+						</div>
+					</div>
+
+					<p className='leftProfile'>
+						jdjdjdjhrhrdddddddddddd2736767396833968367386396836369836hrhhrhrhrhrhrhrhgwgjwwkjgwkwkjgkjgkgwkgwkjg
+					</p>
 				</div>
 
-				<div>
+				<div className='right'>
 					<Router>
 			    	 <div>
 						<div>
@@ -34,7 +41,6 @@ class MainPage extends React.Component {
         			 </div>
 	 		   	    </Router>
 				</div>
-
 			   </div>
 	
 	}
